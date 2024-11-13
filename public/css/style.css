@@ -1,8 +1,8 @@
 :root {
     --pagebg: #FDFDFD; 
-    --main: #FF6347;        
-    --bglink: rgb(9, 50, 110); 
-    --darkbg: #87CEEB;      
+    --main: #ffc628;        
+    --bglink: rgb(170, 182, 2); 
+    --darkbg: #5592aa;      
     --lightbg: #FFFACD;      
     --lighter: #2F4F4F;      
 }
@@ -41,7 +41,7 @@ header input {
 nav {
     background: var(--main);
     color: var(--darkbg);
-    text-shadow: #eb9310 1px 1px;
+    text-shadow: 1px 1px 1px #87f1ff;
     padding: 15px 0;
 }
 ul {
