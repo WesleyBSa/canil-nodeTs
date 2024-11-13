@@ -1,10 +1,10 @@
 :root {
-    --pagebg: #FFF;
-    --main: #102581;
-    --bglink: rgba(0, 0, 0, 0.3);
-    --darkbg: #FFF;
-    --lightbg: #000;
-    --lighter: #444;
+    --pagebg: #FDFDFD; 
+    --main: #FF6347;        
+    --bglink: rgb(9, 50, 110); 
+    --darkbg: #87CEEB;      
+    --lightbg: #FFFACD;      
+    --lighter: #2F4F4F;      
 }
 
 * {
@@ -41,6 +41,7 @@ header input {
 nav {
     background: var(--main);
     color: var(--darkbg);
+    text-shadow: #eb9310 1px 1px;
     padding: 15px 0;
 }
 ul {
@@ -72,7 +73,7 @@ ul li:hover a {
     color: var(--darkbg);
     font-size: 36px;
     font-weight: bold;
-    text-shadow: 1px 1px 1px var(--lighter);
+    text-shadow: 1px 1px 1px var(--main);
     margin-bottom: 30px;
 }
 
@@ -104,6 +105,7 @@ h2 {
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
+    color: #eb9310;
 }
 .item--type,
 .item--color,
